@@ -1,0 +1,19 @@
+.tag-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.new-tag {
+  display: flex;
+  gap: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}

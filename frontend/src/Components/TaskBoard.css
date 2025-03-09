@@ -1,0 +1,58 @@
+.task-board-container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 5%;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.history-logs-btn {
+  float: right;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: -5%;
+}
+
+.task-board {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.column {
+  width: 30%;
+  min-height: 300px;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.column-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.task-list {
+  min-height: 200px;
+}
+
+.create-card-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
